@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello</h1>
+	<h1>Git Test</h1>
 	<hr>
 	
-	<h4>${serverTime }</h4>
+	<h4>commit과 branch를 적절히 활용해서 프로젝트 관리 실습</h4>
 </body>
 </html>
