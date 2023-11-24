@@ -13,12 +13,9 @@ import com.itbank.model.dto.BoardDTO;
 @Service
 public class BoardService {
 	
-	private Logger log = LoggerFactory.getLogger(getClass());
-	
 	@Autowired private BoardDAO dao;
 
 	public List<BoardDTO> getBoards() {		
-		log.debug("매서드 호출됨~");
 		
 		return dao.selectAll();
 	}
